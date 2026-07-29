@@ -63,6 +63,14 @@ button:hover{
     color: #f59e0b;
     text-decoration: underline;
 }
+.btn1:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.btn1{
+    background-color: #f59e0b;
+}
 
 card{
     transition: all .3s ease;
