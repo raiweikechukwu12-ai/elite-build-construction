@@ -39,6 +39,7 @@ p{
     color:#fff;
     padding-left:clamp(1rem, 5vw,9rem);
     max-width: 700px;
+    font-family: sans-serif;
 }
 
 .hero-btns{
@@ -148,7 +149,7 @@ header{
     }
 
     .hero {
-        padding-top: 11rem;
+        padding-top: 8rem;
     }
     header nav{
         display: none;
