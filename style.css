@@ -147,6 +147,9 @@ header{
         font-size: 87.5%;
     }
 
+    .hero {
+        padding-top: 9rem;
+    }
     header nav{
         display: none;
         flex-direction: column;
