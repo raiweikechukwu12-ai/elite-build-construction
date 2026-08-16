@@ -137,8 +137,8 @@ header{
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        height: 90vh;
-        padding-top:clamp(1rem, 8vh,9rem);
+        height: 80vh;
+        padding-top:clamp(1rem, 80vh,9rem);
     }
 
 @media( max-width:768px) {
