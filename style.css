@@ -11,11 +11,13 @@ body{
 }
 
 h1{
-    font-size:3.5rem;
+    font-size:clamp(2.5rem, 4.6vw,3.5rem);
     font-weight: 700;
     color: #f59e0b;
-    width: 80%;
-    text-align: center;
+    width:100%;
+    text-align: left;
+     padding-left:clamp(1rem, 5vw,9rem);
+     max-width: 700px;
 }
 
 h2{
@@ -29,13 +31,14 @@ h3{
 }
 
 p{
-    font-size: 1rem;
+    font-size: clamp(1.15rem,1.2vw,2rem);
 }
 .hero p{
-    font-size: 1.5rem;
-    width: 50%;
-    text-align: center;
+    width: 100%;
+    text-align: left;
     color:#fff;
+    padding-left:clamp(1rem, 5vw,9rem);
+    max-width: 700px;
 }
 
 .hero-btns{
@@ -44,7 +47,8 @@ p{
     justify-content: center;
     flex-wrap: wrap;
     gap: 3rem ;
-    margin-top: 1rem;
+    margin-top:clamp(1rem, 9vh,20rem);
+    padding-left:clamp(1rem, 5vw,9rem);
 }
 
 
@@ -126,15 +130,15 @@ header{
     .hero{
         display: flex;
         flex-direction: column;
-        gap: 4rem;
-        justify-content: center;
-        align-items: center;
+        gap: 1rem;
+        justify-content:start;
+        align-items: start;
         background-image: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.9)), url(images/tolu-olubode-PlBsJ5MybGc-unsplash.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         height: 90vh;
-        padding: 6rem 0 ;
+        padding-top:clamp(1rem, 16vh,9rem);
     }
 
 @media( max-width:768px) {
